@@ -32,6 +32,10 @@ print(U)
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
+'''Program to find L and U matrix using LU decomposition.
+Developed by:alagu nachiyar 
+RegisterNumber: 22002084
+'''
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 A=eval(input())
